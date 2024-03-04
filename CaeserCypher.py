@@ -17,7 +17,7 @@ def shift(word, key):
     for c in word:
         value = alphabet.index(c)
         value += key 
-        value = value % (26)
+        value = value % 26
         shifted += alphabet[value]
     return shifted
 
