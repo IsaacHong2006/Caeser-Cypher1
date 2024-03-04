@@ -1,5 +1,4 @@
 # Isaac Hong, 350645248
-# Create a function that takes two arguments (a word and an integer (for shifting)) and encrypts the given word.
 def shift(word, key): 
     '''shifts the characters of a given word down or up the alphabet based on the key shifted
 
